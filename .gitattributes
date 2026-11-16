@@ -1,0 +1,9 @@
+# Texto con fin de línea LF en el repositorio.
+* text=auto
+
+# Los scripts se ejecutan en Linux: siempre LF, aunque se clone en Windows.
+*.sh  text eol=lf
+*.sql text eol=lf
+docker/* text eol=lf
+
+*.png binary

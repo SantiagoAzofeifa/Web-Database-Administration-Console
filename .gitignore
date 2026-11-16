@@ -1,0 +1,17 @@
+# Configuración real y secretos: solo se versiona dba.conf.ejemplo
+dba.conf
+*.cnf
+.env
+
+# Datos generados por la consola
+*.sql.gz
+respaldos/
+dba_logs/
+dba_planes/
+
+# Herramientas locales
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
